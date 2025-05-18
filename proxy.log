@@ -1,0 +1,764 @@
+[2025-04-24T06:02:46.977Z] Modified Request:
+GET http://gws.bdns.in/searchgstin HTTP/1.1
+Proxy-Connection: Keep-Alive
+Content-Type: application/json
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+GSTIN: 23AAACC1206D2ZN
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+ValidateGSTINMode: 0
+AppSerialNo: DEMO
+CompGSTIN: 24AAACC1206D1ZM
+AppModel: SS
+APIVersion: 1
+AppValidityDate: 20 May 2026
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:04:20.355Z] Modified Request:
+GET http://gws.bdns.in/searchgstin HTTP/1.1
+Proxy-Connection: Keep-Alive
+Content-Type: application/json
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+GSTIN: 23AAACC1206D2ZN
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+ValidateGSTINMode: 1
+AppSerialNo: DEMO
+CompGSTIN: 24AAACC1206D1ZM
+AppModel: SS
+APIVersion: 1
+AppValidityDate: 20 May 2026
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:04:44.837Z] Modified Request:
+GET http://gws.bdns.in/searchgstin HTTP/1.1
+Proxy-Connection: Keep-Alive
+Content-Type: application/json
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+GSTIN: 23AAACC1206D2ZN
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+ValidateGSTINMode: 0
+AppSerialNo: 19080618
+CompGSTIN: 24AAACC1206D1ZM
+AppModel: SS
+APIVersion: 1
+AppValidityDate: 20 May 2026
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:04:47.606Z] Modified Request:
+GET http://gws.bdns.in/searchgstin HTTP/1.1
+Proxy-Connection: Keep-Alive
+Content-Type: application/json
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+GSTIN: 23AAACC1206D2ZN
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+ValidateGSTINMode: 1
+AppSerialNo: 19080618
+CompGSTIN: 24AAACC1206D1ZM
+AppModel: SS
+APIVersion: 1
+AppValidityDate: 20 May 2026
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:08:33.984Z] Modified Request:
+GET http://gws.bdns.in/searchgstin HTTP/1.1
+Proxy-Connection: Keep-Alive
+Content-Type: application/json
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+GSTIN: 23AAACC1206D2ZN
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+ValidateGSTINMode: 0
+AppSerialNo: DEMO
+CompGSTIN: 24AAACC1206D1ZM
+AppModel: SS
+APIVersion: 1
+AppValidityDate: 20 May 2026
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:08:34.597Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:06:12 GMT
+Content-Length: 7794
+
+{"status":"success","gspCode":"4","errorCode":"0","errorMessage":"","data":{"response":{"gstin":"23AAACC1206D2ZN","einvoiceStatus":"Yes","dty":"Regular","lgnm":"CENTRAL WAREHOUSING CORPORATION","tradeNam":"CENTRAL WAREHOUSING CORPORATION","nba":["Office / Sale Office","Warehouse / Depot"],"ctb":"","sts":"Active","rgdt":"1 Jul 2017","cxdt":"","lstupdt":"20 Mar 2025","stj":"Bhopal -1","stjCd":"MP008","ctj":"RANGE-II","ctjCd":"UI0202","pradr":{"addr":{"bnm":"","loc":"Near Central School No 1","st":"Arera Hills,","bno":"75,","stcd":"Madhya Pradesh","dst":"Bhopal","city":"","flno":"","lt":"","lg":"","pncd":"462011","landmark":"","locality":"","geocodelvl":"NA"},"ntr":"Office / Sale Office"},"adadr":[{"addr":{"bnm":"","st":"WARASEONI ROAD","loc":"GARRA,","dst":"Balaghat","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"481001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"LAHAR ROAD","loc":"INDUSTRIAL AREA","dst":"Bhind","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"477001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"JK GODOWN,","loc":"JK ROAD","dst":"Bhopal","bno":"CENTRAL WAREHOUSE,","locality":"","pncd":"462011","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"BHADURPUR ROAD","loc":"BHADURPUR","dst":"Burhanpur","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"450331","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"OPP.MASEEHA HOSPITAL","loc":"MAHOBA ROAD","dst":"Chhatarpur","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"461001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"LAXMIGANJ MANDI","loc":"LASHKAR","dst":"Gwalior","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"474001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"LAXMIBAI NAGAR MANDI","loc":"INDORE","dst":"Indore","bno":"CENTRAL WAREHOUSE-I","locality":"","pncd":"452002","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"SANYOGITAGANJ","loc":"NAI MANDI","dst":"Indore","bno":"CENTRAL WAREHOUSE-II","locality":"","pncd":"452002","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"NEAR LAXMIBAI NAGAR MANDI","loc":"LAXMIGANJ MANDI","dst":"Indore","bno":"CENTRAL WAREHOUSE-IV","locality":"","pncd":"452001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"SECTOR -F,INDUSTRIAL AREA","loc":"SANWER ROAD","dst":"Indore","bno":"CENTRAL WAREHOUSE-V","locality":"","pncd":"452003","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"ANAND NAGAR ROAD","loc":"ANAND NAGAR","dst":"Khandwa","bno":"CENTRAL WAREHOUSE-I","locality":"","pncd":"450001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"ANAND NAGAR ROAD,","loc":"ANAND NAGAR","dst":"Khandwa","bno":"CENTRAL WAREHOUSE-II","locality":"","pncd":"450001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"PLOT NO.28,","loc":"INDUSTRIAL AREA,MAKSI","dst":"Shajapur","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"465106","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"JIWAJIGANJ","loc":"STATION ROAD","dst":"Morena","bno":"CENTRAL WAREHOUSE-I","locality":"","pncd":"465106","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"KRISHI UPAJ MANDI SAMITI","loc":"KRISHI UAJ MANDI","dst":"Morena","bno":"CENTRAL WAREHOUSE-II","locality":"","pncd":"465106","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"R/1-A,INDUSTRIAL AREA","loc":"GHIRONGI,MALANPUR","dst":"Bhind","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"477117","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"KRISHI UPAJ MANDI SAMITI CAMPUS","loc":"KRISHI UAJ MANDI","dst":"Narsinghpur","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"487001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"SECTOR-I,PLOT NO.250","loc":"INDUSTRIAL AREA,PITHAMPUR","dst":"Dhar","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"454774","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"KRISHI UPAJ MANDI SAMITI PREMISES","loc":"UJJAIN ROAD,SANWER","dst":"Indore","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"453551","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"KRISHI UPAJ MANDI CAMPUS","loc":"PIPARIYA ROAD,SOHAGPUR","dst":"Narmadapuram","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"461771","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"STATION ROAD","loc":"STATION ROAD","dst":"Sheopur","bno":"CENTRAL WAREHOUSE-I","locality":"","pncd":"476337","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"KHATOULI ROAD","loc":"JAIDA","dst":"Sheopur","bno":"CENTRAL WAREHOUSE-II","locality":"","pncd":"476337","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"GRAM - POST JAMUNIYA VILLAGE","loc":"NARSINGHPUR ROAD","dst":"Chhindwara","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"480001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"FCI,FSD CAMPUS","loc":"SINGHPUR ROAD","dst":"Shahdol","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"484001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"PANNA ROAD","loc":"KUTHALA","dst":"Katni","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"483501","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"NEAR NISHATPURA CABIN","st":"CHHOLA ROAD","loc":"BHOPAL","dst":"Bhopal","bno":"CENTRAL WAREHOUSE II","locality":"","pncd":"462010","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"Railside Warehousing Complex","st":"Nishatpura, Chhola Road","loc":"Bhopal","dst":"Bhopal","bno":"Terminal Manager","locality":"","pncd":"462010","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"pincode","flno":"","lg":"77.4203350000001","lt":"23.266892"},"ntr":"Warehouse / Depot"}],"rek":"","hmac":""},"appWiseAddDet":{"S3Result":"T","S3Error":"","ReturnFilingGSPCode":"0","GstinAPIUsed":"T","ReturnFilingAPIUsed":"F","LastValidatedDate":"24 Apr 2025","FilingMode":"M","RepStatusCode":"200","existingDBRec":"N"}}}
+
+[2025-04-24T06:08:34.706Z] Modified Request:
+GET http://gws.bdns.in/trackreturnstatus HTTP/1.1
+Proxy-Connection: Keep-Alive
+Content-Type: application/json
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+GSTIN: 23AAACC1206D2ZN
+FY: 2025-26
+APIVersion: 1
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+AppSerialNo: 19080614
+AppModel: SS
+AppValidityDate: 20 May 2026
+CompGSTIN: 24AAACC1206D1ZM
+RFSMode: 0
+ReturnType: ALL
+ReturnPeriod: ALL
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:08:35.109Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/plain; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:06:13 GMT
+Content-Length: 184
+
+{"status":"failure","gspCode":"4","errorCode":"0","errorMessage":"No Record found for the provided Inputs","data":{"response":{},"appWiseAddDet":{"RepStatusCode":"200","APIUsed":"Y"}}}
+
+[2025-04-24T06:08:35.150Z] Modified Request:
+GET http://gws.bdns.in/trackreturnstatus HTTP/1.1
+Proxy-Connection: Keep-Alive
+Content-Type: application/json
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+GSTIN: 23AAACC1206D2ZN
+FY: 2024-25
+APIVersion: 1
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+AppSerialNo: 19080614
+AppModel: SS
+AppValidityDate: 20 May 2026
+CompGSTIN: 24AAACC1206D1ZM
+RFSMode: 0
+ReturnType: ALL
+ReturnPeriod: ALL
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:08:36.606Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/plain; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:06:14 GMT
+Content-Length: 3533
+
+{"status":"success","gspCode":"4","errorCode":"0","errorMessage":"","data":{"response":{"EFiledlist":[{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"042024","dof":"8 May 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"042024","dof":"18 May 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"052024","dof":"5 Jun 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR2X","ret_prd":"052024","dof":"16 Jun 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"052024","dof":"18 Jun 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"062024","dof":"4 Jul 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"062024","dof":"16 Jul 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"072024","dof":"8 Aug 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR2X","ret_prd":"072024","dof":"8 Aug 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"072024","dof":"17 Aug 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"082024","dof":"6 Sep 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"082024","dof":"13 Sep 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"092024","dof":"10 Oct 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR2X","ret_prd":"092024","dof":"3 Nov 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"092024","dof":"16 Oct 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"102024","dof":"8 Nov 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1A","ret_prd":"102024","dof":"12 Nov 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR2X","ret_prd":"102024","dof":"19 Dec 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"102024","dof":"16 Nov 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"112024","dof":"6 Dec 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR2X","ret_prd":"112024","dof":"10 Dec 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"112024","dof":"17 Dec 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"122024","dof":"6 Jan 2025","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR2X","ret_prd":"122024","dof":"9 Jan 2025","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"122024","dof":"17 Jan 2025","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"012025","dof":"6 Feb 2025","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR2X","ret_prd":"012025","dof":"11 Feb 2025","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"012025","dof":"17 Feb 2025","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"022025","dof":"7 Mar 2025","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR2X","ret_prd":"022025","dof":"11 Mar 2025","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"022025","dof":"18 Mar 2025","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"032025","dof":"10 Apr 2025","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"032025","dof":"17 Apr 2025","status":"Filed"}]},"appWiseAddDet":{"RepStatusCode":"200","APIUsed":"Y"}}}
+
+[2025-04-24T06:08:46.327Z] Modified Request:
+GET http://gws.bdns.in/searchgstin HTTP/1.1
+Proxy-Connection: Keep-Alive
+Content-Type: application/json
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+GSTIN: 23AAACC1206D2ZN
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+ValidateGSTINMode: 1
+AppSerialNo: DEMO
+CompGSTIN: 24AAACC1206D1ZM
+AppModel: SS
+APIVersion: 1
+AppValidityDate: 20 May 2026
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:08:47.207Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:06:25 GMT
+Content-Length: 7794
+
+{"status":"success","gspCode":"4","errorCode":"0","errorMessage":"","data":{"response":{"gstin":"23AAACC1206D2ZN","einvoiceStatus":"Yes","dty":"Regular","lgnm":"CENTRAL WAREHOUSING CORPORATION","tradeNam":"CENTRAL WAREHOUSING CORPORATION","nba":["Office / Sale Office","Warehouse / Depot"],"ctb":"","sts":"Active","rgdt":"1 Jul 2017","cxdt":"","lstupdt":"20 Mar 2025","stj":"Bhopal -1","stjCd":"MP008","ctj":"RANGE-II","ctjCd":"UI0202","pradr":{"addr":{"bnm":"","loc":"Near Central School No 1","st":"Arera Hills,","bno":"75,","stcd":"Madhya Pradesh","dst":"Bhopal","city":"","flno":"","lt":"","lg":"","pncd":"462011","landmark":"","locality":"","geocodelvl":"NA"},"ntr":"Office / Sale Office"},"adadr":[{"addr":{"bnm":"","st":"WARASEONI ROAD","loc":"GARRA,","dst":"Balaghat","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"481001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"LAHAR ROAD","loc":"INDUSTRIAL AREA","dst":"Bhind","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"477001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"JK GODOWN,","loc":"JK ROAD","dst":"Bhopal","bno":"CENTRAL WAREHOUSE,","locality":"","pncd":"462011","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"BHADURPUR ROAD","loc":"BHADURPUR","dst":"Burhanpur","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"450331","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"OPP.MASEEHA HOSPITAL","loc":"MAHOBA ROAD","dst":"Chhatarpur","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"461001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"LAXMIGANJ MANDI","loc":"LASHKAR","dst":"Gwalior","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"474001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"LAXMIBAI NAGAR MANDI","loc":"INDORE","dst":"Indore","bno":"CENTRAL WAREHOUSE-I","locality":"","pncd":"452002","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"SANYOGITAGANJ","loc":"NAI MANDI","dst":"Indore","bno":"CENTRAL WAREHOUSE-II","locality":"","pncd":"452002","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"NEAR LAXMIBAI NAGAR MANDI","loc":"LAXMIGANJ MANDI","dst":"Indore","bno":"CENTRAL WAREHOUSE-IV","locality":"","pncd":"452001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"SECTOR -F,INDUSTRIAL AREA","loc":"SANWER ROAD","dst":"Indore","bno":"CENTRAL WAREHOUSE-V","locality":"","pncd":"452003","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"ANAND NAGAR ROAD","loc":"ANAND NAGAR","dst":"Khandwa","bno":"CENTRAL WAREHOUSE-I","locality":"","pncd":"450001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"ANAND NAGAR ROAD,","loc":"ANAND NAGAR","dst":"Khandwa","bno":"CENTRAL WAREHOUSE-II","locality":"","pncd":"450001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"PLOT NO.28,","loc":"INDUSTRIAL AREA,MAKSI","dst":"Shajapur","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"465106","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"JIWAJIGANJ","loc":"STATION ROAD","dst":"Morena","bno":"CENTRAL WAREHOUSE-I","locality":"","pncd":"465106","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"KRISHI UPAJ MANDI SAMITI","loc":"KRISHI UAJ MANDI","dst":"Morena","bno":"CENTRAL WAREHOUSE-II","locality":"","pncd":"465106","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"R/1-A,INDUSTRIAL AREA","loc":"GHIRONGI,MALANPUR","dst":"Bhind","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"477117","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"KRISHI UPAJ MANDI SAMITI CAMPUS","loc":"KRISHI UAJ MANDI","dst":"Narsinghpur","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"487001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"SECTOR-I,PLOT NO.250","loc":"INDUSTRIAL AREA,PITHAMPUR","dst":"Dhar","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"454774","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"KRISHI UPAJ MANDI SAMITI PREMISES","loc":"UJJAIN ROAD,SANWER","dst":"Indore","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"453551","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"KRISHI UPAJ MANDI CAMPUS","loc":"PIPARIYA ROAD,SOHAGPUR","dst":"Narmadapuram","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"461771","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"STATION ROAD","loc":"STATION ROAD","dst":"Sheopur","bno":"CENTRAL WAREHOUSE-I","locality":"","pncd":"476337","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"KHATOULI ROAD","loc":"JAIDA","dst":"Sheopur","bno":"CENTRAL WAREHOUSE-II","locality":"","pncd":"476337","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"GRAM - POST JAMUNIYA VILLAGE","loc":"NARSINGHPUR ROAD","dst":"Chhindwara","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"480001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"FCI,FSD CAMPUS","loc":"SINGHPUR ROAD","dst":"Shahdol","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"484001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"PANNA ROAD","loc":"KUTHALA","dst":"Katni","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"483501","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"NEAR NISHATPURA CABIN","st":"CHHOLA ROAD","loc":"BHOPAL","dst":"Bhopal","bno":"CENTRAL WAREHOUSE II","locality":"","pncd":"462010","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"Railside Warehousing Complex","st":"Nishatpura, Chhola Road","loc":"Bhopal","dst":"Bhopal","bno":"Terminal Manager","locality":"","pncd":"462010","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"pincode","flno":"","lg":"77.4203350000001","lt":"23.266892"},"ntr":"Warehouse / Depot"}],"rek":"","hmac":""},"appWiseAddDet":{"S3Result":"T","S3Error":"","ReturnFilingGSPCode":"0","GstinAPIUsed":"T","ReturnFilingAPIUsed":"F","LastValidatedDate":"24 Apr 2025","FilingMode":"M","RepStatusCode":"200","existingDBRec":"N"}}}
+
+[2025-04-24T06:08:47.303Z] Modified Request:
+GET http://gws.bdns.in/trackreturnstatus HTTP/1.1
+Proxy-Connection: Keep-Alive
+Content-Type: application/json
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+GSTIN: 23AAACC1206D2ZN
+FY: 2025-26
+APIVersion: 1
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+AppSerialNo: 19080614
+AppModel: SS
+AppValidityDate: 20 May 2026
+CompGSTIN: 24AAACC1206D1ZM
+RFSMode: 0
+ReturnType: ALL
+ReturnPeriod: ALL
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:08:47.569Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/plain; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:06:25 GMT
+Content-Length: 184
+
+{"status":"failure","gspCode":"4","errorCode":"0","errorMessage":"No Record found for the provided Inputs","data":{"response":{},"appWiseAddDet":{"RepStatusCode":"200","APIUsed":"Y"}}}
+
+[2025-04-24T06:08:47.606Z] Modified Request:
+GET http://gws.bdns.in/trackreturnstatus HTTP/1.1
+Proxy-Connection: Keep-Alive
+Content-Type: application/json
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+GSTIN: 23AAACC1206D2ZN
+FY: 2024-25
+APIVersion: 1
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+AppSerialNo: 19080614
+AppModel: SS
+AppValidityDate: 20 May 2026
+CompGSTIN: 24AAACC1206D1ZM
+RFSMode: 0
+ReturnType: ALL
+ReturnPeriod: ALL
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:08:48.121Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/plain; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:06:26 GMT
+Content-Length: 3533
+
+{"status":"success","gspCode":"4","errorCode":"0","errorMessage":"","data":{"response":{"EFiledlist":[{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"042024","dof":"8 May 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"042024","dof":"18 May 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"052024","dof":"5 Jun 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR2X","ret_prd":"052024","dof":"16 Jun 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"052024","dof":"18 Jun 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"062024","dof":"4 Jul 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"062024","dof":"16 Jul 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"072024","dof":"8 Aug 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR2X","ret_prd":"072024","dof":"8 Aug 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"072024","dof":"17 Aug 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"082024","dof":"6 Sep 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"082024","dof":"13 Sep 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"092024","dof":"10 Oct 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR2X","ret_prd":"092024","dof":"3 Nov 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"092024","dof":"16 Oct 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"102024","dof":"8 Nov 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1A","ret_prd":"102024","dof":"12 Nov 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR2X","ret_prd":"102024","dof":"19 Dec 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"102024","dof":"16 Nov 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"112024","dof":"6 Dec 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR2X","ret_prd":"112024","dof":"10 Dec 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"112024","dof":"17 Dec 2024","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"122024","dof":"6 Jan 2025","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR2X","ret_prd":"122024","dof":"9 Jan 2025","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"122024","dof":"17 Jan 2025","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"012025","dof":"6 Feb 2025","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR2X","ret_prd":"012025","dof":"11 Feb 2025","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"012025","dof":"17 Feb 2025","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"022025","dof":"7 Mar 2025","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR2X","ret_prd":"022025","dof":"11 Mar 2025","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"022025","dof":"18 Mar 2025","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR1","ret_prd":"032025","dof":"10 Apr 2025","status":"Filed"},{"GSTIN":"23AAACC1206D2ZN","rtntype":"GSTR3B","ret_prd":"032025","dof":"17 Apr 2025","status":"Filed"}]},"appWiseAddDet":{"RepStatusCode":"200","APIUsed":"Y"}}}
+
+[2025-04-24T06:09:05.641Z] Modified Request:
+GET http://gws.bdns.in/searchgstin HTTP/1.1
+Proxy-Connection: Keep-Alive
+Content-Type: application/json
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+GSTIN: 23AAACC1206D2ZN
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+ValidateGSTINMode: 1
+AppSerialNo: DEMO
+CompGSTIN: 24AAACC1206D1ZM
+AppModel: SS
+APIVersion: 1
+AppValidityDate: 20 May 2026
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:09:06.073Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:06:44 GMT
+Content-Length: 7794
+
+{"status":"success","gspCode":"4","errorCode":"0","errorMessage":"","data":{"response":{"gstin":"23AAACC1206D2ZN","einvoiceStatus":"Yes","dty":"Regular","lgnm":"CENTRAL WAREHOUSING CORPORATION","tradeNam":"CENTRAL WAREHOUSING CORPORATION","nba":["Office / Sale Office","Warehouse / Depot"],"ctb":"","sts":"Active","rgdt":"1 Jul 2017","cxdt":"","lstupdt":"20 Mar 2025","stj":"Bhopal -1","stjCd":"MP008","ctj":"RANGE-II","ctjCd":"UI0202","pradr":{"addr":{"bnm":"","loc":"Near Central School No 1","st":"Arera Hills,","bno":"75,","stcd":"Madhya Pradesh","dst":"Bhopal","city":"","flno":"","lt":"","lg":"","pncd":"462011","landmark":"","locality":"","geocodelvl":"NA"},"ntr":"Office / Sale Office"},"adadr":[{"addr":{"bnm":"","st":"WARASEONI ROAD","loc":"GARRA,","dst":"Balaghat","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"481001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"LAHAR ROAD","loc":"INDUSTRIAL AREA","dst":"Bhind","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"477001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"JK GODOWN,","loc":"JK ROAD","dst":"Bhopal","bno":"CENTRAL WAREHOUSE,","locality":"","pncd":"462011","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"BHADURPUR ROAD","loc":"BHADURPUR","dst":"Burhanpur","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"450331","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"OPP.MASEEHA HOSPITAL","loc":"MAHOBA ROAD","dst":"Chhatarpur","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"461001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"LAXMIGANJ MANDI","loc":"LASHKAR","dst":"Gwalior","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"474001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"LAXMIBAI NAGAR MANDI","loc":"INDORE","dst":"Indore","bno":"CENTRAL WAREHOUSE-I","locality":"","pncd":"452002","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"SANYOGITAGANJ","loc":"NAI MANDI","dst":"Indore","bno":"CENTRAL WAREHOUSE-II","locality":"","pncd":"452002","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"NEAR LAXMIBAI NAGAR MANDI","loc":"LAXMIGANJ MANDI","dst":"Indore","bno":"CENTRAL WAREHOUSE-IV","locality":"","pncd":"452001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"SECTOR -F,INDUSTRIAL AREA","loc":"SANWER ROAD","dst":"Indore","bno":"CENTRAL WAREHOUSE-V","locality":"","pncd":"452003","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"ANAND NAGAR ROAD","loc":"ANAND NAGAR","dst":"Khandwa","bno":"CENTRAL WAREHOUSE-I","locality":"","pncd":"450001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"ANAND NAGAR ROAD,","loc":"ANAND NAGAR","dst":"Khandwa","bno":"CENTRAL WAREHOUSE-II","locality":"","pncd":"450001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"PLOT NO.28,","loc":"INDUSTRIAL AREA,MAKSI","dst":"Shajapur","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"465106","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"JIWAJIGANJ","loc":"STATION ROAD","dst":"Morena","bno":"CENTRAL WAREHOUSE-I","locality":"","pncd":"465106","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"KRISHI UPAJ MANDI SAMITI","loc":"KRISHI UAJ MANDI","dst":"Morena","bno":"CENTRAL WAREHOUSE-II","locality":"","pncd":"465106","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"R/1-A,INDUSTRIAL AREA","loc":"GHIRONGI,MALANPUR","dst":"Bhind","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"477117","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"KRISHI UPAJ MANDI SAMITI CAMPUS","loc":"KRISHI UAJ MANDI","dst":"Narsinghpur","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"487001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"SECTOR-I,PLOT NO.250","loc":"INDUSTRIAL AREA,PITHAMPUR","dst":"Dhar","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"454774","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"KRISHI UPAJ MANDI SAMITI PREMISES","loc":"UJJAIN ROAD,SANWER","dst":"Indore","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"453551","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"KRISHI UPAJ MANDI CAMPUS","loc":"PIPARIYA ROAD,SOHAGPUR","dst":"Narmadapuram","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"461771","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"STATION ROAD","loc":"STATION ROAD","dst":"Sheopur","bno":"CENTRAL WAREHOUSE-I","locality":"","pncd":"476337","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"KHATOULI ROAD","loc":"JAIDA","dst":"Sheopur","bno":"CENTRAL WAREHOUSE-II","locality":"","pncd":"476337","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"GRAM - POST JAMUNIYA VILLAGE","loc":"NARSINGHPUR ROAD","dst":"Chhindwara","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"480001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"FCI,FSD CAMPUS","loc":"SINGHPUR ROAD","dst":"Shahdol","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"484001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"PANNA ROAD","loc":"KUTHALA","dst":"Katni","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"483501","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"NEAR NISHATPURA CABIN","st":"CHHOLA ROAD","loc":"BHOPAL","dst":"Bhopal","bno":"CENTRAL WAREHOUSE II","locality":"","pncd":"462010","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"Railside Warehousing Complex","st":"Nishatpura, Chhola Road","loc":"Bhopal","dst":"Bhopal","bno":"Terminal Manager","locality":"","pncd":"462010","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"pincode","flno":"","lg":"77.4203350000001","lt":"23.266892"},"ntr":"Warehouse / Depot"}],"rek":"","hmac":""},"appWiseAddDet":{"S3Result":"T","S3Error":"","ReturnFilingGSPCode":"0","GstinAPIUsed":"T","ReturnFilingAPIUsed":"F","LastValidatedDate":"24 Apr 2025","FilingMode":"M","RepStatusCode":"200","existingDBRec":"N"}}}
+
+[2025-04-24T06:09:06.138Z] Modified Request:
+GET http://gws.bdns.in/trackreturnstatus HTTP/1.1
+Proxy-Connection: Keep-Alive
+Content-Type: application/json
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+GSTIN: 23AAACC1206D2ZN
+FY: 2025-26
+APIVersion: 1
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+AppSerialNo: 190dcsd80614
+AppModel: SS
+AppValidityDate: 20 May 2026
+CompGSTIN: 24AAACC1206D1ZM
+RFSMode: 0
+ReturnType: ALL
+ReturnPeriod: ALL
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:09:06.544Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/plain; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:06:44 GMT
+Content-Length: 234
+
+{"status":"failure","gspCode":"0","errorCode":"5","errorMessage":"You can not use this feature as your Busy license Serial No '190DCSD80614' does not exists.","data":{"response":{},"appWiseAddDet":{"RepStatusCode":"0","APIUsed":"N"}}}
+
+[2025-04-24T06:09:06.560Z] Modified Request:
+GET http://gws.bdns.in/trackreturnstatus HTTP/1.1
+Proxy-Connection: Keep-Alive
+Content-Type: application/json
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+GSTIN: 23AAACC1206D2ZN
+FY: 2024-25
+APIVersion: 1
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+AppSerialNo: 190dcsd80614
+AppModel: SS
+AppValidityDate: 20 May 2026
+CompGSTIN: 24AAACC1206D1ZM
+RFSMode: 0
+ReturnType: ALL
+ReturnPeriod: ALL
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:09:06.752Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/plain; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:06:44 GMT
+Content-Length: 234
+
+{"status":"failure","gspCode":"0","errorCode":"5","errorMessage":"You can not use this feature as your Busy license Serial No '190DCSD80614' does not exists.","data":{"response":{},"appWiseAddDet":{"RepStatusCode":"0","APIUsed":"N"}}}
+
+[2025-04-24T06:09:16.473Z] Modified Request:
+GET http://gws.bdns.in/searchgstin HTTP/1.1
+Proxy-Connection: Keep-Alive
+Content-Type: application/json
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+GSTIN: 23AAACC1206D2ZN
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+ValidateGSTINMode: 1
+AppSerialNo: DEMO
+CompGSTIN: 24AAACC1206D1ZM
+AppModel: SS
+APIVersion: 1
+AppValidityDate: 20 May 2026
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:09:17.560Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:06:55 GMT
+Content-Length: 7794
+
+{"status":"success","gspCode":"4","errorCode":"0","errorMessage":"","data":{"response":{"gstin":"23AAACC1206D2ZN","einvoiceStatus":"Yes","dty":"Regular","lgnm":"CENTRAL WAREHOUSING CORPORATION","tradeNam":"CENTRAL WAREHOUSING CORPORATION","nba":["Office / Sale Office","Warehouse / Depot"],"ctb":"","sts":"Active","rgdt":"1 Jul 2017","cxdt":"","lstupdt":"20 Mar 2025","stj":"Bhopal -1","stjCd":"MP008","ctj":"RANGE-II","ctjCd":"UI0202","pradr":{"addr":{"bnm":"","loc":"Near Central School No 1","st":"Arera Hills,","bno":"75,","stcd":"Madhya Pradesh","dst":"Bhopal","city":"","flno":"","lt":"","lg":"","pncd":"462011","landmark":"","locality":"","geocodelvl":"NA"},"ntr":"Office / Sale Office"},"adadr":[{"addr":{"bnm":"","st":"WARASEONI ROAD","loc":"GARRA,","dst":"Balaghat","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"481001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"LAHAR ROAD","loc":"INDUSTRIAL AREA","dst":"Bhind","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"477001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"JK GODOWN,","loc":"JK ROAD","dst":"Bhopal","bno":"CENTRAL WAREHOUSE,","locality":"","pncd":"462011","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"BHADURPUR ROAD","loc":"BHADURPUR","dst":"Burhanpur","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"450331","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"OPP.MASEEHA HOSPITAL","loc":"MAHOBA ROAD","dst":"Chhatarpur","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"461001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"LAXMIGANJ MANDI","loc":"LASHKAR","dst":"Gwalior","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"474001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"LAXMIBAI NAGAR MANDI","loc":"INDORE","dst":"Indore","bno":"CENTRAL WAREHOUSE-I","locality":"","pncd":"452002","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"SANYOGITAGANJ","loc":"NAI MANDI","dst":"Indore","bno":"CENTRAL WAREHOUSE-II","locality":"","pncd":"452002","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"NEAR LAXMIBAI NAGAR MANDI","loc":"LAXMIGANJ MANDI","dst":"Indore","bno":"CENTRAL WAREHOUSE-IV","locality":"","pncd":"452001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"SECTOR -F,INDUSTRIAL AREA","loc":"SANWER ROAD","dst":"Indore","bno":"CENTRAL WAREHOUSE-V","locality":"","pncd":"452003","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"ANAND NAGAR ROAD","loc":"ANAND NAGAR","dst":"Khandwa","bno":"CENTRAL WAREHOUSE-I","locality":"","pncd":"450001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"ANAND NAGAR ROAD,","loc":"ANAND NAGAR","dst":"Khandwa","bno":"CENTRAL WAREHOUSE-II","locality":"","pncd":"450001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"PLOT NO.28,","loc":"INDUSTRIAL AREA,MAKSI","dst":"Shajapur","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"465106","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"JIWAJIGANJ","loc":"STATION ROAD","dst":"Morena","bno":"CENTRAL WAREHOUSE-I","locality":"","pncd":"465106","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"KRISHI UPAJ MANDI SAMITI","loc":"KRISHI UAJ MANDI","dst":"Morena","bno":"CENTRAL WAREHOUSE-II","locality":"","pncd":"465106","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"R/1-A,INDUSTRIAL AREA","loc":"GHIRONGI,MALANPUR","dst":"Bhind","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"477117","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"KRISHI UPAJ MANDI SAMITI CAMPUS","loc":"KRISHI UAJ MANDI","dst":"Narsinghpur","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"487001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"SECTOR-I,PLOT NO.250","loc":"INDUSTRIAL AREA,PITHAMPUR","dst":"Dhar","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"454774","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"KRISHI UPAJ MANDI SAMITI PREMISES","loc":"UJJAIN ROAD,SANWER","dst":"Indore","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"453551","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"KRISHI UPAJ MANDI CAMPUS","loc":"PIPARIYA ROAD,SOHAGPUR","dst":"Narmadapuram","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"461771","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"STATION ROAD","loc":"STATION ROAD","dst":"Sheopur","bno":"CENTRAL WAREHOUSE-I","locality":"","pncd":"476337","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"KHATOULI ROAD","loc":"JAIDA","dst":"Sheopur","bno":"CENTRAL WAREHOUSE-II","locality":"","pncd":"476337","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"GRAM - POST JAMUNIYA VILLAGE","loc":"NARSINGHPUR ROAD","dst":"Chhindwara","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"480001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"FCI,FSD CAMPUS","loc":"SINGHPUR ROAD","dst":"Shahdol","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"484001","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"","st":"PANNA ROAD","loc":"KUTHALA","dst":"Katni","bno":"CENTRAL WAREHOUSE","locality":"","pncd":"483501","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"NEAR NISHATPURA CABIN","st":"CHHOLA ROAD","loc":"BHOPAL","dst":"Bhopal","bno":"CENTRAL WAREHOUSE II","locality":"","pncd":"462010","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"NA","flno":"","lg":"","lt":""},"ntr":"Office / Sale Office"},{"addr":{"bnm":"Railside Warehousing Complex","st":"Nishatpura, Chhola Road","loc":"Bhopal","dst":"Bhopal","bno":"Terminal Manager","locality":"","pncd":"462010","landmark":"","stcd":"Madhya Pradesh","geocodelvl":"pincode","flno":"","lg":"77.4203350000001","lt":"23.266892"},"ntr":"Warehouse / Depot"}],"rek":"","hmac":""},"appWiseAddDet":{"S3Result":"T","S3Error":"","ReturnFilingGSPCode":"0","GstinAPIUsed":"T","ReturnFilingAPIUsed":"F","LastValidatedDate":"24 Apr 2025","FilingMode":"M","RepStatusCode":"200","existingDBRec":"N"}}}
+
+[2025-04-24T06:09:17.631Z] Modified Request:
+GET http://gws.bdns.in/trackreturnstatus HTTP/1.1
+Proxy-Connection: Keep-Alive
+Content-Type: application/json
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+GSTIN: 23AAACC1206D2ZN
+FY: 2025-26
+APIVersion: 1
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+AppSerialNo: 190dcsd80614
+AppModel: SS
+AppValidityDate: 20 May 2026
+CompGSTIN: 24AAACC1206D1ZM
+RFSMode: 0
+ReturnType: ALL
+ReturnPeriod: ALL
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:09:17.819Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/plain; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:06:55 GMT
+Content-Length: 234
+
+{"status":"failure","gspCode":"0","errorCode":"5","errorMessage":"You can not use this feature as your Busy license Serial No '190DCSD80614' does not exists.","data":{"response":{},"appWiseAddDet":{"RepStatusCode":"0","APIUsed":"N"}}}
+
+[2025-04-24T06:09:17.835Z] Modified Request:
+GET http://gws.bdns.in/trackreturnstatus HTTP/1.1
+Proxy-Connection: Keep-Alive
+Content-Type: application/json
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+GSTIN: 23AAACC1206D2ZN
+FY: 2024-25
+APIVersion: 1
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+AppSerialNo: 190dcsd80614
+AppModel: SS
+AppValidityDate: 20 May 2026
+CompGSTIN: 24AAACC1206D1ZM
+RFSMode: 0
+ReturnType: ALL
+ReturnPeriod: ALL
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:09:18.062Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/plain; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:06:56 GMT
+Content-Length: 234
+
+{"status":"failure","gspCode":"0","errorCode":"5","errorMessage":"You can not use this feature as your Busy license Serial No '190DCSD80614' does not exists.","data":{"response":{},"appWiseAddDet":{"RepStatusCode":"0","APIUsed":"N"}}}
+
+[2025-04-24T06:09:35.105Z] Modified Request:
+GET http://gws.bdns.in/searchhsnv2 HTTP/1.1
+Proxy-Connection: Keep-Alive
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+APIVersion: 1
+FieldValue: 76826
+AppModel: SS
+CompGSTIN: 24AAACC1206D1ZM
+AppSerialNo: DEMO
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+AppValidityDate: 20 May 2026
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:09:35.509Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/plain; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:07:13 GMT
+Content-Length: 346
+
+{"status":"failure","gspCode":"99","errorCode":"","errorMessage":"Invalid Hsn Code","data":{"response":{"HSNStatusAsPerEWBPortal":"0","HSNDescAsPerEWBPortal":"Invalid Hsn Code","HSNStatusAsPerGSTPortal":"0","HSNDescAsPerGSTPortal":"Invalid Hsn Code","HSNStatusAsPerEInvPortal":"0","HSNDescAsPerEInvPortal":"Invalid Hsn Code"},"appWiseAddDet":{}}}
+
+[2025-04-24T06:12:11.924Z] Modified Request:
+GET http://gws.bdns.in/searchhsnv2 HTTP/1.1
+Proxy-Connection: Keep-Alive
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+APIVersion: 1
+FieldValue: 76826
+AppModel: SS
+CompGSTIN: 24AAACC1206D1ZM
+AppSerialNo: DEMO
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+AppValidityDate: 20 May 2026
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:12:12.295Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/plain; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:09:50 GMT
+Content-Length: 346
+
+{"status":"failure","gspCode":"99","errorCode":"","errorMessage":"Invalid Hsn Code","data":{"response":{"HSNStatusAsPerEWBPortal":"0","HSNDescAsPerEWBPortal":"Invalid Hsn Code","HSNStatusAsPerGSTPortal":"0","HSNDescAsPerGSTPortal":"Invalid Hsn Code","HSNStatusAsPerEInvPortal":"0","HSNDescAsPerEInvPortal":"Invalid Hsn Code"},"appWiseAddDet":{}}}
+
+[2025-04-24T06:12:41.986Z] Modified Request:
+GET http://gws.bdns.in/searchhsnv2 HTTP/1.1
+Proxy-Connection: Keep-Alive
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+APIVersion: 1
+FieldValue: 7108
+AppModel: SS
+CompGSTIN: 24AAACC1206D1ZM
+AppSerialNo: DEMO
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+AppValidityDate: 20 May 2026
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:12:42.179Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/plain; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:10:19 GMT
+Content-Length: 630
+
+{"status":"success","gspCode":"99","errorCode":"","errorMessage":"","data":{"response":{"HSNStatusAsPerEWBPortal":"1","HSNDescAsPerEWBPortal":"GOLD (INCLUDING GOLD PLATED WITH PLATINUM) UNWROUGHT OR IN SEMI-MANUFACTURED FORMS, OR IN POWDER FORM - Non-monetary","HSNStatusAsPerGSTPortal":"1","HSNDescAsPerGSTPortal":"GOLD (INCLUDING GOLD PLATED WITH PLATINUM) UNWROUGHT OR IN SEMI-MANUFACTURED FORMS, OR IN POWDER FORM - Non-monetary","HSNStatusAsPerEInvPortal":"1","HSNDescAsPerEInvPortal":"GOLD (INCLUDING GOLD PLATED WITH PLATINUM) UNWROUGHT OR IN SEMI-MANUFACTURED FORMS, OR IN POWDER FORM - NON-MONETARY"},"appWiseAddDet":{}}}
+
+[2025-04-24T06:13:00.123Z] Modified Request:
+GET http://gws.bdns.in/searchhsnv2 HTTP/1.1
+Proxy-Connection: Keep-Alive
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+APIVersion: 1
+FieldValue: 7108
+AppModel: SS
+CompGSTIN: 24AAACC1206D1ZM
+AppSerialNo: 190dcsd80614
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+AppValidityDate: 20 May 2026
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:13:00.498Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/plain; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:10:38 GMT
+Content-Length: 202
+
+{"status":"failure","gspCode":"99","errorCode":"5","errorMessage":"You can not use this feature as your Busy license Serial No '190DCSD80614' does not exists.","data":{"response":{},"appWiseAddDet":{}}}
+
+[2025-04-24T06:13:09.047Z] Modified Request:
+GET http://gws.bdns.in/searchhsnv2 HTTP/1.1
+Proxy-Connection: Keep-Alive
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+APIVersion: 1
+FieldValue: 7108
+AppModel: SS
+CompGSTIN: 24AAACC1206D1ZM
+AppSerialNo: 190dcsd80614
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+AppValidityDate: 20 May 2026
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:13:09.259Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/plain; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:10:46 GMT
+Content-Length: 202
+
+{"status":"failure","gspCode":"99","errorCode":"5","errorMessage":"You can not use this feature as your Busy license Serial No '190DCSD80614' does not exists.","data":{"response":{},"appWiseAddDet":{}}}
+
+[2025-04-24T06:13:48.579Z] Modified Request:
+GET http://gws.bdns.in/searchhsnv2 HTTP/1.1
+Proxy-Connection: Keep-Alive
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+APIVersion: 1
+FieldValue: 7108
+AppModel: SS
+CompGSTIN: 24AAACC1206D1ZM
+AppSerialNo: 19080618
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+AppValidityDate: 20 May 2026
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:13:49.020Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/plain; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:11:26 GMT
+Content-Length: 325
+
+{"status":"failure","gspCode":"99","errorCode":"5","errorMessage":"We have seen an unusually high usage of your license by large no. of companies for GST services in Busy. It is possible that your Busy license details have been hacked. For assistance, please call us at 8282828282.","data":{"response":{},"appWiseAddDet":{}}}
+
+[2025-04-24T06:14:14.587Z] Modified Request:
+GET http://gws.bdns.in/searchhsnv2 HTTP/1.1
+Proxy-Connection: Keep-Alive
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+APIVersion: 1
+FieldValue: 7108
+AppModel: SS
+CompGSTIN: 24AAACC1206D1ZM
+AppSerialNo: 19080ss618
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+AppValidityDate: 20 May 2026
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:14:14.950Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/plain; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:11:52 GMT
+Content-Length: 200
+
+{"status":"failure","gspCode":"99","errorCode":"5","errorMessage":"You can not use this feature as your Busy license Serial No '19080SS618' does not exists.","data":{"response":{},"appWiseAddDet":{}}}
+
+[2025-04-24T06:48:28.802Z] Modified Request:
+GET http://gws.bdns.in/searchhsnv2 HTTP/1.1
+Proxy-Connection: Keep-Alive
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+APIVersion: 1
+FieldValue: 7108
+AppModel: SS
+CompGSTIN: 24AAACC1206D1ZM
+AppSerialNo: DEMO
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+AppValidityDate: 20 May 2026
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:48:28.974Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/plain; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:46:06 GMT
+Content-Length: 630
+
+{"status":"success","gspCode":"99","errorCode":"","errorMessage":"","data":{"response":{"HSNStatusAsPerEWBPortal":"1","HSNDescAsPerEWBPortal":"GOLD (INCLUDING GOLD PLATED WITH PLATINUM) UNWROUGHT OR IN SEMI-MANUFACTURED FORMS, OR IN POWDER FORM - Non-monetary","HSNStatusAsPerGSTPortal":"1","HSNDescAsPerGSTPortal":"GOLD (INCLUDING GOLD PLATED WITH PLATINUM) UNWROUGHT OR IN SEMI-MANUFACTURED FORMS, OR IN POWDER FORM - Non-monetary","HSNStatusAsPerEInvPortal":"1","HSNDescAsPerEInvPortal":"GOLD (INCLUDING GOLD PLATED WITH PLATINUM) UNWROUGHT OR IN SEMI-MANUFACTURED FORMS, OR IN POWDER FORM - NON-MONETARY"},"appWiseAddDet":{}}}
+
+[2025-04-24T06:48:43.546Z] Modified Request:
+GET http://gws.bdns.in/searchhsncodewisev2 HTTP/1.1
+Proxy-Connection: Keep-Alive
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+APIVersion: 1
+HSN: 7108
+AppModel: SS
+CompGSTIN: 24AAACC1206D1ZM
+AppSerialNo: DEMO
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+AppValidityDate: 20 May 2026
+PortalInputType: 3
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:48:44.139Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/plain; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:46:21 GMT
+Content-Length: 194
+
+{"status":"failure","gspCode":"99","errorCode":"5","errorMessage":"You can not use this feature as your Busy license Serial No 'DEMO' does not exists.","data":{"response":{},"appWiseAddDet":{}}}
+
+[2025-04-24T06:49:17.713Z] Modified Request:
+GET http://gws.bdns.in/searchhsncodewisev2 HTTP/1.1
+Proxy-Connection: Keep-Alive
+Accept: */*
+User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+APIVersion: 1
+HSN: 7108
+AppModel: SS
+CompGSTIN: 24AAACC1206D1ZM
+AppSerialNo: 1908s0618
+AppCode: 1
+AppSecret: dwT2tHmMYfdGNcd1LKCWhA==
+AppValidityDate: 20 May 2026
+PortalInputType: 3
+Host: gws.bdns.in
+
+
+
+[2025-04-24T06:49:18.180Z] Response from Server:
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/plain; charset=utf-8
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 24 Apr 2025 06:46:55 GMT
+Content-Length: 199
+
+{"status":"failure","gspCode":"99","errorCode":"5","errorMessage":"You can not use this feature as your Busy license Serial No '1908S0618' does not exists.","data":{"response":{},"appWiseAddDet":{}}}
+

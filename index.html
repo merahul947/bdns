@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>License Management</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>License Management</h1>
+        </header>
+
+        <div class="form-container card">
+            <h2>Add New License</h2>
+            <form id="licenseForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="serialno">Serial No</label>
+                        <input type="text" id="serialno" name="serialno" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="hardwareid">Hardware ID</label>
+                        <input type="text" id="hardwareid" name="hardwareid" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="expirydate">Expiry Date</label>
+                        <input type="date" id="expirydate" name="expirydate" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="status">Status</label>
+                        <select id="status" name="status" required>
+                            <option value="active">Active</option>
+                            <option value="inactive">Inactive</option>
+                            <option value="expired">Expired</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Add License</button>
+            </form>
+        </div>
+        <div class="table-container card">
+            <div class="table-header">
+                <h2>License List</h2>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search licenses...">
+                    <button class="btn btn-search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Hardware ID</th>
+                            <th>Serial No</th>
+                            <th>Expiry Date</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="license-table-body">
+                        <!-- License rows will be inserted dynamically here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html
