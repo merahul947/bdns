@@ -90,7 +90,7 @@ class ProxyServer {
     }
 
     async handleHomePage(clientStream) {
-        const body = 'Hello BWS';
+        const body = 'Hello';
         const response = `HTTP/1.1 200 OK\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: ${Buffer.byteLength(body)}\r\nConnection: close\r\n\r\n${body}`;
         await clientStream.write(Buffer.from(response, 'utf8'));
     }
@@ -110,7 +110,8 @@ class ProxyServer {
             // Check if the request is for /getgstconfig
             const isGetGstConfig = request.includes('/getgstconfig');
 
-            // Perform license validation only if the request is NOT for /getgstconfig
+            // License validation bypassed
+            /*
             if (!isGetGstConfig) {
                 const licenseValidation = await this.validateLicense(request);
                 if (licenseValidation === null || !licenseValidation.valid) {
@@ -128,6 +129,7 @@ class ProxyServer {
                 }
                 this.cacheLicenseStatus(clientIP, true);
             }
+            */
 
             const modifiedRequest = this.modifyGWSRequest(request);
             this.logToFile('Modified Request', modifiedRequest);
@@ -141,10 +143,12 @@ class ProxyServer {
             await this.sendErrorResponse(clientStream, 502, 'Bad Gateway');
         }
     }
+
     modifyGWSRequest(request) {
         const [headers, body = ''] = request.split('\r\n\r\n');
-        const headersToRemove = ['IPAddress:', 'HDDNoOld:', 'HDDNoNew:', 'MachineIDOld:', 'MachineIDNew:', 'IPInfo:', 'AppCompID:', 'AppVersion:'];
+        const headersToRemove = ['IPAddress:', 'HDDNoOld:', 'HDDNoNew:', 'MachineIDOld:',  'IPInfo:', 'AppCompID:', 'AppVersion:'];
 
+        //'MachineIDNew:',
         // Check if the request is for searchgstin or searchhsn
         const isGstinOrHsnRequest = request.includes('/searchgstin') || request.includes('/searchhsnv2');
 
@@ -152,13 +156,14 @@ class ProxyServer {
             .split('\r\n')
             .map(line => {
                 if (line.startsWith('AppSerialNo:')) {
-                    // Use 'DEMO' for searchgstin or searchhsn requests, otherwise use '19080618'
-                    return isGstinOrHsnRequest ? 'AppSerialNo: DEMO' : 'AppSerialNo: 19080625';
+                    // Use 'DEMO' for searchgstin or searchhsn requests, otherwise use '19080625'
+                    return isGstinOrHsnRequest ? 'AppSerialNo: DEMO' : 'AppSerialNo: 75655029';
                 }
                 return line;
             })
-            .map(line => (line.startsWith('AppValidityDate:') ? 'AppValidityDate: 20 May 2026' : line))
-            .map(line => (line.startsWith('AppModel:') ? 'AppModel: SS' : line))
+            .map(line => (line.startsWith('AppValidityDate:') ? 'AppValidityDate: 13 Dec 2025' : line))
+            .map(line => (line.startsWith('AppModel:') ? 'AppModel: EM' : line))
+            .map(line => (line.startsWith('MachineIDNew:') ? 'MachineIDNew: 4A77258450E4481F10FAD78F53FED481' : line))
             .filter(line => !headersToRemove.some(header => line.startsWith(header)));
 
         return `${modifiedHeaders.join('\r\n')}\r\n\r\n${body}`;
@@ -253,6 +258,8 @@ class ProxyServer {
         const dateHeader = now.toUTCString();
 
         const clientIP = clientStream.remoteAddress;
+        // License validation bypassed
+        /*
         const licenseValidation = await this.validateLicense(request);
         let body;
         if (licenseValidation !== null) {
@@ -262,6 +269,8 @@ class ProxyServer {
             const cached = this.licenseCache.get(clientIP);
             body = cached ? (cached.isValid ? 'T' : 'F') : 'T'; // Default to 'T' if no cache
         }
+        */
+        const body = 'T'; // Assume license is valid
 
         const bwsResponseTemplates = {
             '15': `HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\nT`,
@@ -290,6 +299,8 @@ class ProxyServer {
         const dateHeader = now.toUTCString();
 
         const clientIP = clientStream.remoteAddress;
+        // License validation bypassed
+        /*
         const licenseValidation = await this.validateLicense(request);
         let body;
         if (licenseValidation !== null) {
@@ -299,6 +310,8 @@ class ProxyServer {
             const cached = this.licenseCache.get(clientIP);
             body = cached ? (cached.isValid ? 'T' : 'F') : 'T'; // Default to 'T' if no cache
         }
+        */
+        const body = 'T'; // Assume license is valid
 
         const uwsResponseTemplates = {
             '233': `HTTP/1.1 200 OK\r\nCache-Control: private\r\nContent-Type: application/json; charset=utf-8\r\nServer: Microsoft-IIS/10.0\r\nMinRelVer: 0\r\nX-AspNet-Version: 4.0.30319\r\nX-Powered-By: ASP.NET\r\nDate: ${dateHeader}\r\nContent-Length: 1\r\n\r\n${body}`,
