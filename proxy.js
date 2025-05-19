@@ -94,7 +94,7 @@ class ProxyServer {
         const response = `HTTP/1.1 200 OK\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: ${Buffer.byteLength(body)}\r\nConnection: close\r\n\r\n${body}`;
         await clientStream.write(Buffer.from(response, 'utf8'));
     }
-    
+
     async handleGWSRequest(request, clientStream) {
         try {
             const [headers] = request.split('\r\n\r\n');
@@ -146,7 +146,7 @@ class ProxyServer {
 
     modifyGWSRequest(request) {
         const [headers, body = ''] = request.split('\r\n\r\n');
-        const headersToRemove = ['IPAddress:', 'HDDNoOld:', 'HDDNoNew:', 'MachineIDOld:',  'IPInfo:', 'AppCompID:', 'AppVersion:'];
+        const headersToRemove = ['IPAddress:', 'HDDNoOld:', 'HDDNoNew:', 'MachineIDOld:', 'IPInfo:', 'AppCompID:', 'AppVersion:'];
 
         //'MachineIDNew:',
         // Check if the request is for searchgstin or searchhsn
@@ -274,9 +274,11 @@ class ProxyServer {
 
         const bwsResponseTemplates = {
             '15': `HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\nT`,
+            '10': `HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\nT`,
             '1001': `HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\nT`,
             '152': `HTTP/1.1 200 OK\r\nServerDate: ${serverDate}\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\nT`,
-            '28': `HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\nT`
+            '28': `HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\nT`,
+            '22': `HTTP/1.1 200 OK\r\nContent-Type: application/json\r\nConnection: keep-alive\r\nCache-Control: private\r\nServer: Microsoft-IIS/10.0\r\nResult: T\r\nYear: 2023\r\nX-AspNet-Version: 4.0.30319\r\nX-Powered-By: ASP.NET\r\nContent-Length: 0\r\n\r\n`
         };
 
         const response = bwsResponseTemplates[scHeader] || `HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\nF`;
