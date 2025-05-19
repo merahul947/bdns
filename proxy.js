@@ -274,9 +274,9 @@ class ProxyServer {
 
         const bwsResponseTemplates = {
             '15': `HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\nT`,
-            '1001': `HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\n${body}`,
-            '152': `HTTP/1.1 200 OK\r\nServerDate: ${serverDate}\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\n${body}`,
-            '28': `HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\n${body}`
+            '1001': `HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\nT`,
+            '152': `HTTP/1.1 200 OK\r\nServerDate: ${serverDate}\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\nT`,
+            '28': `HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\nT`
         };
 
         const response = bwsResponseTemplates[scHeader] || `HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\nF`;
@@ -314,11 +314,11 @@ class ProxyServer {
         const body = 'T'; // Assume license is valid
 
         const uwsResponseTemplates = {
-            '233': `HTTP/1.1 200 OK\r\nCache-Control: private\r\nContent-Type: application/json; charset=utf-8\r\nServer: Microsoft-IIS/10.0\r\nMinRelVer: 0\r\nX-AspNet-Version: 4.0.30319\r\nX-Powered-By: ASP.NET\r\nDate: ${dateHeader}\r\nContent-Length: 1\r\n\r\n${body}`,
-            '111': `HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\n${body}`,
-            '52': `HTTP/1.1 200 OK\r\nCache-Control: private\r\nContent-Type: application/json; charset=utf-8\r\nServer: Microsoft-IIS/10.0\r\nServerDate: ${serverDate}\r\nX-AspNet-Version: 4.0.30319\r\nX-Powered-By: ASP.NET\r\nDate: ${dateHeader}\r\nContent-Length: 1\r\n\r\n${body}`,
-            '32': `HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\n${body}`,
-            '75': `HTTP/1.1 200 OK\r\nServerDate: ${serverDate}\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\n${body}`,
+            '233': `HTTP/1.1 200 OK\r\nCache-Control: private\r\nContent-Type: application/json; charset=utf-8\r\nServer: Microsoft-IIS/10.0\r\nMinRelVer: 0\r\nX-AspNet-Version: 4.0.30319\r\nX-Powered-By: ASP.NET\r\nDate: ${dateHeader}\r\nContent-Length: 1\r\n\r\nT`,
+            '111': `HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\nT`,
+            '52': `HTTP/1.1 200 OK\r\nCache-Control: private\r\nContent-Type: application/json; charset=utf-8\r\nServer: Microsoft-IIS/10.0\r\nServerDate: ${serverDate}\r\nX-AspNet-Version: 4.0.30319\r\nX-Powered-By: ASP.NET\r\nDate: ${dateHeader}\r\nContent-Length: 1\r\n\r\nT`,
+            '32': `HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\nT`,
+            '75': `HTTP/1.1 200 OK\r\nServerDate: ${serverDate}\r\nContent-Type: text/plain\r\nContent-Length: 1\r\n\r\nT`,
             '20': `HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nDate: ${dateHeader}\r\nServer: Microsoft-IIS/10.0\r\nCache-Control: private\r\nDescription: Verified!\r\nLastDevice: 1\r\nValidityDate: 1/1/1900\r\nValidityDateUniversal: 1 Jan 1900\r\nNoOfDays: 0\r\nX-AspNet-Version: 4.0.30319\r\nX-Powered-By: ASP.NET\r\nContent-Length: 1\r\n\r\nT`
         };
 
